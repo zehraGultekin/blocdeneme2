@@ -60,7 +60,7 @@ class _PageTodoState extends State<PageTodo> {
                     return const Center(child: CircularProgressIndicator());
                   } else if (state is TodoLoaded) {
                     if (state.todos.isEmpty) {
-                      return const Center(child: Text('No tasks yet.'));
+                      return const Center(child: Text('No  yet.'));
                     }
                     return ListView.separated(
                       itemCount: state.todos.length,
